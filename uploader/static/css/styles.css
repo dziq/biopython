@@ -1,0 +1,20 @@
+* {
+	padding: 0px;
+}
+html {
+}
+
+body{
+    margin: 0;
+	padding: 0;
+	color: #7c7c7c;
+	text-align: center;
+	background: #E9E9E9 url(../img/line.jpg) repeat-y center top;
+	height: 100%;
+	font-family: 'Open-Sans', Arial, Helvetica, sans-serif;
+	font-size: 0.7em;
+	font-style: normal;
+	line-height: 1.4em;
+	font-weight: normal;
+	font-variant: normal;
+}

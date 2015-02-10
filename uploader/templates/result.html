@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>biopython</title>
+        <link rel="stylesheet" href="static/css/styles.css" />
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script> 
+		    <script type="text/javascript" src="static/js/jquery.filedrop.js"></script>
+        <script type="text/javascript" src="static/js/upload.js"></script>
+    </head>
+    <body>
+	<h1>Results</h1>
+	<h2>Complement</h2>
+        {% if position|int != -1 %}
+	    Found at position : {{position}}
+        {% else %}
+	    Not found </br>
+	{% endif %}
+	<h2>Reverse complement</h2>
+	{% if position_rev|int != -1 %}
+	    Found at position : {{position_rev}}
+	{% else %}
+	    Not found </br>
+	{% endif %}</br>
+	<h1><a href="/">Start new search</a></h1>
+    </body>
+</html>
