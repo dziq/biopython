@@ -1,3 +1,4 @@
+#author Bartosz Nitkiewicz e-mail: bartosz_at_gmail_dot_com
 import readline, glob
 def complete(text, state):
     return (glob.glob(text+'*')+[None])[state]

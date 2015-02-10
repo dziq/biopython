@@ -1,3 +1,5 @@
+#author Bartosz Nitkiewicz e-mail: bartosz_at_gmail_dot_com
+
 import string
 import re
 import sgmllib
