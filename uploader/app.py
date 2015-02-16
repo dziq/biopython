@@ -37,6 +37,8 @@ def upload():
                 position = data.find(x)
                 position_rev = data.find(seq_rev)
             return render_template('result.html', position=position, position_rev=position_rev)
+        else:
+            return render_template("no_fasta.html")
 
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1] in ALLOWED_EXTENSIONS
