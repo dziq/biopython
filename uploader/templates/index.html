@@ -2,15 +2,16 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>biopython</title>
+        <title>Nucletide analysis script written in biopython</title>
         <link rel="stylesheet" href="static/css/styles.css" />
-	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+		<script src="http://code.angularjs.org/1.3.9/angular.min.js"></script>
     </head>
     <body>
 	<h1>Start new search</h1>
 	<form action="" method=post enctype=multipart/form-data>
-	    <h4>Load fasta file: <input type=file name=file></h4>
-	    <h4>Enter the search sequence: <input type='text' name='search_item'></h4>
+	    <h4>Load fasta file: <input type="file" name="file" required></h4>
+	    <h4>Enter the search sequence: <input type="text" name="search_item"></h4>
 	<input type=submit value=Start>
 	</form>
     </body>
