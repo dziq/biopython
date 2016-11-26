@@ -1,4 +1,4 @@
-#author Bartosz Nitkiewicz e-mail: bartosz_at_gmail_dot_com
+#author Bartosz Nitkiewicz e-mail: bartosz_at_nitkiewicz_dot_me
 
 import string
 import re
